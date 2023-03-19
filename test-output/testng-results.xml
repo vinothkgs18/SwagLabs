@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-19T10:17:03Z" name="Suite" finished-at="2023-03-19T10:17:11Z" duration-ms="8501">
+    <groups>
+    </groups>
+    <test started-at="2023-03-19T10:17:03Z" name="Test" finished-at="2023-03-19T10:17:11Z" duration-ms="8501">
+      <class name="TestRunner.Login_Func">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:03Z" name="openBrowser" finished-at="2023-03-19T10:17:03Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:03Z" name="BM" finished-at="2023-03-19T10:17:05Z" duration-ms="2320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="login_Scenario_1()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:05Z" name="login_Scenario_1" finished-at="2023-03-19T10:17:05Z" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Scenario_1 -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:05Z" name="AM" finished-at="2023-03-19T10:17:05Z" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:05Z" name="BM" finished-at="2023-03-19T10:17:06Z" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="login_Scenario_2()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:06Z" name="login_Scenario_2" finished-at="2023-03-19T10:17:07Z" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Scenario_2 -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:07Z" name="AM" finished-at="2023-03-19T10:17:07Z" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:07Z" name="BM" finished-at="2023-03-19T10:17:08Z" duration-ms="951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="login_Scenario_3()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:08Z" name="login_Scenario_3" finished-at="2023-03-19T10:17:08Z" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Scenario_3 -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:08Z" name="AM" finished-at="2023-03-19T10:17:08Z" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:08Z" name="BM" finished-at="2023-03-19T10:17:09Z" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="login_Scenario_4()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:09Z" name="login_Scenario_4" finished-at="2023-03-19T10:17:09Z" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Scenario_4 -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:09Z" name="AM" finished-at="2023-03-19T10:17:09Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:09Z" name="closeBrowsers" finished-at="2023-03-19T10:17:09Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- TestRunner.Login_Func -->
+      <class name="TestRunner.HomePageText">
+        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.HomePageText@8462f31]" started-at="2023-03-19T10:17:09Z" name="BM" finished-at="2023-03-19T10:17:10Z" duration-ms="931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestRunner.HomePageText@8462f31]" started-at="2023-03-19T10:17:09Z" name="openBrowser" finished-at="2023-03-19T10:17:09Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="logoText()[pri:0, instance:TestRunner.HomePageText@8462f31]" started-at="2023-03-19T10:17:10Z" name="logoText" finished-at="2023-03-19T10:17:10Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoText -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.HomePageText@8462f31]" started-at="2023-03-19T10:17:10Z" name="AM" finished-at="2023-03-19T10:17:10Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.HomePageText@8462f31]" started-at="2023-03-19T10:17:10Z" name="BM" finished-at="2023-03-19T10:17:11Z" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="textInHome()[pri:0, instance:TestRunner.HomePageText@8462f31]" started-at="2023-03-19T10:17:11Z" name="textInHome" finished-at="2023-03-19T10:17:11Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textInHome -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.HomePageText@8462f31]" started-at="2023-03-19T10:17:11Z" name="AM" finished-at="2023-03-19T10:17:11Z" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:TestRunner.HomePageText@8462f31]" started-at="2023-03-19T10:17:11Z" name="closeBrowsers" finished-at="2023-03-19T10:17:11Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- TestRunner.HomePageText -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
