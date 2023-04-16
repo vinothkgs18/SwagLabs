@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="10.446" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="21.893" tests="10" errors="0" skipped="0" failures="0">
   <properties>
+    <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.5+9-LTS-191"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
@@ -24,25 +25,23 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 11"/>
-    <property name="classworlds.conf" value="C:\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="classworlds.conf" value="C:\Users\sasit\eclipse-workspace-Vinoth\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf16709258281359300919.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.5\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\apache-maven-3.8.6\;C:\apache-maven-3.8.6\\bin;C:\Program Files\Java\jdk-17.0.5\;C:\Program Files\Java\jdk-17.0.5\\lib;C:\Users\sasit\AppData\Local\Microsoft\WindowsApps;C:\Users\sasit\AppData\Local\atom\bin;C:\Users\sasit\AppData\Local\Microsoft\WindowsApps;C:\Users\sasit\.dotnet\tools;."/>
-    <property name="maven.conf" value="C:\apache-maven-3.8.6/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="61.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\apache-maven-3.8.6\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\sasit"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="file.encoding" value="Cp1252"/>
+    <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="17"/>
     <property name="user.name" value="sasit"/>
-    <property name="java.class.path" value="C:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="C:\Users\sasit\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.601.20220820-1147\jars\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17.0.5"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -50,20 +49,23 @@
     <property name="java.version" value="17.0.5"/>
     <property name="native.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
-    <property name="maven.home" value="C:\apache-maven-3.8.6"/>
+    <property name="maven.home" value="C:\Users\sasit\eclipse-workspace-Vinoth\saucedemo\EMBEDDED"/>
+    <property name="style.color" value="always"/>
     <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2022-10-18"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="login_Scenario_1" classname="TestRunner.Login_Func" time="0.258"/>
-  <testcase name="login_Scenario_2" classname="TestRunner.Login_Func" time="0.236"/>
-  <testcase name="login_Scenario_3" classname="TestRunner.Login_Func" time="0.231"/>
-  <testcase name="login_Scenario_4" classname="TestRunner.Login_Func" time="0.23"/>
-  <testcase name="logoText" classname="TestRunner.HomePageText" time="0.005"/>
-  <testcase name="textInHome" classname="TestRunner.HomePageText" time="0.054"/>
+  <testcase name="sorting_Name_A_Z" classname="TestRunner.Sorting" time="0.132"/>
+  <testcase name="sorting_Name_Z_A" classname="TestRunner.Sorting" time="0.168"/>
+  <testcase name="sorting_Price_High_Low" classname="TestRunner.Sorting" time="0.2"/>
+  <testcase name="sorting_Price_Low_High" classname="TestRunner.Sorting" time="0.176"/>
+  <testcase name="login_Scenario_1" classname="TestRunner.Login_Func" time="0.336"/>
+  <testcase name="login_Scenario_2" classname="TestRunner.Login_Func" time="0.276"/>
+  <testcase name="login_Scenario_3" classname="TestRunner.Login_Func" time="0.265"/>
+  <testcase name="login_Scenario_4" classname="TestRunner.Login_Func" time="0.255"/>
+  <testcase name="textInHome" classname="TestRunner.HomePageText" time="0.048"/>
+  <testcase name="productAddToCart" classname="TestRunner.Inventory" time="0.437"/>
 </testsuite>

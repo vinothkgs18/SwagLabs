@@ -31,6 +31,27 @@ public class saucedemoPOJO extends Base {
 	
 	@FindBy(tagName = "h4")
 	private List<WebElement> textInHome;
+	
+	@FindBy(xpath="//div[@class='login_logo']")
+	private WebElement logo;
+	
+	@FindBy(id="login_credentials")
+	private List<WebElement> userNameList;
+	
+	@FindBy(xpath="//div[@class='inventory_item_name']")
+	private List<WebElement> productList;
+	
+	@FindBy(xpath="//button[@class='btn btn_primary btn_small btn_inventory']")
+	private List<WebElement> cartButtons;
+	
+	@FindBy(xpath="//a[@class='shopping_cart_link']")
+	private WebElement cartIcon;
+	
+	@FindBy(xpath="//div[@class='inventory_item_name']")
+	private List<WebElement> productListInCart;
+	
+	@FindBy(xpath="//select[@class='product_sort_container']")
+	private WebElement sortingDropDown;
 	//-------------------------------------------------------------------------------------------------------
 	//public methods
 
@@ -63,6 +84,52 @@ public class saucedemoPOJO extends Base {
 	public List<WebElement> getTextInHome() {
 		return textInHome;
 	}
+
+
+	public WebElement getLogo() {
+		return logo;
+	}
+	
+	public List<WebElement> getUserNameList() {
+		return userNameList;
+	}
+
+
+	public List<WebElement> getProductList() {
+		return productList;
+	}
+
+
+	public List<WebElement> getCartButtons() {
+		return cartButtons;
+	}
+
+
+	public WebElement getCartIcon() {
+		return cartIcon;
+	}
+
+
+	public List<WebElement> getProductListInCart() {
+		return productListInCart;
+	}
+
+
+	public WebElement getSortingDropDown() {
+		return sortingDropDown;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

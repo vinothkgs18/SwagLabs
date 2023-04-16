@@ -1,99 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="1" total="11" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-19T10:27:19Z" name="Suite" finished-at="2023-03-19T10:27:29Z" duration-ms="9698">
+  <suite started-at="2023-04-16T15:18:40Z" name="Suite" finished-at="2023-04-16T15:19:01Z" duration-ms="20944">
     <groups>
     </groups>
-    <test started-at="2023-03-19T10:27:19Z" name="Test" finished-at="2023-03-19T10:27:29Z" duration-ms="9698">
-      <class name="TestRunner.Login_Func">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestRunner.Login_Func@3c7f66c4]" started-at="2023-03-19T10:27:19Z" name="openBrowser" finished-at="2023-03-19T10:27:19Z" duration-ms="22" status="PASS">
+    <test started-at="2023-04-16T15:18:40Z" name="Test" finished-at="2023-04-16T15:19:01Z" duration-ms="20944">
+      <class name="TestRunner.Inventory">
+        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.Inventory@437da279]" started-at="2023-04-16T15:18:59Z" name="BM" finished-at="2023-04-16T15:19:01Z" duration-ms="1588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestRunner.Inventory@437da279]" started-at="2023-04-16T15:18:59Z" name="openBrowser" finished-at="2023-04-16T15:18:59Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.Login_Func@3c7f66c4]" started-at="2023-03-19T10:27:19Z" name="BM" finished-at="2023-03-19T10:27:21Z" duration-ms="2226" status="PASS">
+        <test-method signature="productAddToCart(java.lang.String, java.lang.String)[pri:0, instance:TestRunner.Inventory@437da279]" started-at="2023-04-16T15:19:01Z" name="productAddToCart" finished-at="2023-04-16T15:19:01Z" duration-ms="437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productAddToCart -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Inventory@437da279]" started-at="2023-04-16T15:19:01Z" name="AM" finished-at="2023-04-16T15:19:01Z" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:TestRunner.Inventory@437da279]" started-at="2023-04-16T15:19:01Z" name="closeBrowsers" finished-at="2023-04-16T15:19:01Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- TestRunner.Inventory -->
+      <class name="TestRunner.Login_Func">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestRunner.Login_Func@36916eb0]" started-at="2023-04-16T15:18:50Z" name="openBrowser" finished-at="2023-04-16T15:18:50Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.Login_Func@36916eb0]" started-at="2023-04-16T15:18:50Z" name="BM" finished-at="2023-04-16T15:18:51Z" duration-ms="1612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BM -->
-        <test-method signature="login_Scenario_1()[pri:0, instance:TestRunner.Login_Func@3c7f66c4]" started-at="2023-03-19T10:27:21Z" name="login_Scenario_1" finished-at="2023-03-19T10:27:22Z" duration-ms="258" status="PASS">
+        <test-method signature="login_Scenario_1()[pri:0, instance:TestRunner.Login_Func@36916eb0]" started-at="2023-04-16T15:18:51Z" name="login_Scenario_1" finished-at="2023-04-16T15:18:52Z" duration-ms="334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_Scenario_1 -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Login_Func@3c7f66c4]" started-at="2023-03-19T10:27:22Z" name="AM" finished-at="2023-03-19T10:27:22Z" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Login_Func@36916eb0]" started-at="2023-04-16T15:18:52Z" name="AM" finished-at="2023-04-16T15:18:52Z" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AM -->
-        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.Login_Func@3c7f66c4]" started-at="2023-03-19T10:27:22Z" name="BM" finished-at="2023-03-19T10:27:23Z" duration-ms="1019" status="PASS">
+        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.Login_Func@36916eb0]" started-at="2023-04-16T15:18:52Z" name="BM" finished-at="2023-04-16T15:18:53Z" duration-ms="1470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BM -->
-        <test-method signature="login_Scenario_2()[pri:0, instance:TestRunner.Login_Func@3c7f66c4]" started-at="2023-03-19T10:27:23Z" name="login_Scenario_2" finished-at="2023-03-19T10:27:23Z" duration-ms="236" status="PASS">
+        <test-method signature="login_Scenario_2()[pri:0, instance:TestRunner.Login_Func@36916eb0]" started-at="2023-04-16T15:18:53Z" name="login_Scenario_2" finished-at="2023-04-16T15:18:53Z" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_Scenario_2 -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Login_Func@3c7f66c4]" started-at="2023-03-19T10:27:23Z" name="AM" finished-at="2023-03-19T10:27:23Z" duration-ms="96" status="PASS">
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Login_Func@36916eb0]" started-at="2023-04-16T15:18:53Z" name="AM" finished-at="2023-04-16T15:18:54Z" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AM -->
-        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.Login_Func@3c7f66c4]" started-at="2023-03-19T10:27:23Z" name="BM" finished-at="2023-03-19T10:27:24Z" duration-ms="1083" status="PASS">
+        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.Login_Func@36916eb0]" started-at="2023-04-16T15:18:54Z" name="BM" finished-at="2023-04-16T15:18:55Z" duration-ms="1429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BM -->
-        <test-method signature="login_Scenario_3()[pri:0, instance:TestRunner.Login_Func@3c7f66c4]" started-at="2023-03-19T10:27:24Z" name="login_Scenario_3" finished-at="2023-03-19T10:27:24Z" duration-ms="247" status="PASS">
+        <test-method signature="login_Scenario_3()[pri:0, instance:TestRunner.Login_Func@36916eb0]" started-at="2023-04-16T15:18:55Z" name="login_Scenario_3" finished-at="2023-04-16T15:18:55Z" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_Scenario_3 -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Login_Func@3c7f66c4]" started-at="2023-03-19T10:27:24Z" name="AM" finished-at="2023-03-19T10:27:25Z" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Login_Func@36916eb0]" started-at="2023-04-16T15:18:55Z" name="AM" finished-at="2023-04-16T15:18:55Z" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AM -->
-        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.Login_Func@3c7f66c4]" started-at="2023-03-19T10:27:25Z" name="BM" finished-at="2023-03-19T10:27:26Z" duration-ms="1069" status="PASS">
+        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.Login_Func@36916eb0]" started-at="2023-04-16T15:18:55Z" name="BM" finished-at="2023-04-16T15:18:57Z" duration-ms="1422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BM -->
-        <test-method signature="login_Scenario_4()[pri:0, instance:TestRunner.Login_Func@3c7f66c4]" started-at="2023-03-19T10:27:26Z" name="login_Scenario_4" finished-at="2023-03-19T10:27:26Z" duration-ms="230" status="PASS">
+        <test-method signature="login_Scenario_4()[pri:0, instance:TestRunner.Login_Func@36916eb0]" started-at="2023-04-16T15:18:57Z" name="login_Scenario_4" finished-at="2023-04-16T15:18:57Z" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_Scenario_4 -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Login_Func@3c7f66c4]" started-at="2023-03-19T10:27:26Z" name="AM" finished-at="2023-03-19T10:27:26Z" duration-ms="112" status="PASS">
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Login_Func@36916eb0]" started-at="2023-04-16T15:18:57Z" name="AM" finished-at="2023-04-16T15:18:57Z" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AM -->
-        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:TestRunner.Login_Func@3c7f66c4]" started-at="2023-03-19T10:27:26Z" name="closeBrowsers" finished-at="2023-03-19T10:27:26Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:TestRunner.Login_Func@36916eb0]" started-at="2023-04-16T15:18:57Z" name="closeBrowsers" finished-at="2023-04-16T15:18:57Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowsers -->
       </class> <!-- TestRunner.Login_Func -->
-      <class name="TestRunner.HomePageText">
-        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.HomePageText@194bcebf]" started-at="2023-03-19T10:27:26Z" name="BM" finished-at="2023-03-19T10:27:27Z" duration-ms="1083" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BM -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestRunner.HomePageText@194bcebf]" started-at="2023-03-19T10:27:26Z" name="openBrowser" finished-at="2023-03-19T10:27:26Z" duration-ms="0" status="PASS">
+      <class name="TestRunner.Sorting">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestRunner.Sorting@21282ed8]" started-at="2023-04-16T15:18:40Z" name="openBrowser" finished-at="2023-04-16T15:18:40Z" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="logoText()[pri:0, instance:TestRunner.HomePageText@194bcebf]" started-at="2023-03-19T10:27:27Z" name="logoText" finished-at="2023-03-19T10:27:27Z" duration-ms="39" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoText -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.HomePageText@194bcebf]" started-at="2023-03-19T10:27:27Z" name="AM" finished-at="2023-03-19T10:27:27Z" duration-ms="137" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AM -->
-        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.HomePageText@194bcebf]" started-at="2023-03-19T10:27:27Z" name="BM" finished-at="2023-03-19T10:27:29Z" duration-ms="1459" status="PASS">
+        <test-method is-config="true" signature="BM(java.lang.String, java.lang.String)[pri:0, instance:TestRunner.Sorting@21282ed8]" started-at="2023-04-16T15:18:40Z" name="BM" finished-at="2023-04-16T15:18:43Z" duration-ms="2621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BM -->
-        <test-method signature="textInHome()[pri:0, instance:TestRunner.HomePageText@194bcebf]" started-at="2023-03-19T10:27:29Z" name="textInHome" finished-at="2023-03-19T10:27:29Z" duration-ms="54" status="PASS">
+        <test-method signature="sorting_Name_A_Z()[pri:0, instance:TestRunner.Sorting@21282ed8]" started-at="2023-04-16T15:18:43Z" name="sorting_Name_A_Z" finished-at="2023-04-16T15:18:43Z" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- textInHome -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.HomePageText@194bcebf]" started-at="2023-03-19T10:27:29Z" name="AM" finished-at="2023-03-19T10:27:29Z" duration-ms="99" status="PASS">
+        </test-method> <!-- sorting_Name_A_Z -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Sorting@21282ed8]" started-at="2023-04-16T15:18:43Z" name="AM" finished-at="2023-04-16T15:18:43Z" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AM -->
-        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:TestRunner.HomePageText@194bcebf]" started-at="2023-03-19T10:27:29Z" name="closeBrowsers" finished-at="2023-03-19T10:27:29Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="BM(java.lang.String, java.lang.String)[pri:0, instance:TestRunner.Sorting@21282ed8]" started-at="2023-04-16T15:18:43Z" name="BM" finished-at="2023-04-16T15:18:45Z" duration-ms="1757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="sorting_Name_Z_A()[pri:0, instance:TestRunner.Sorting@21282ed8]" started-at="2023-04-16T15:18:45Z" name="sorting_Name_Z_A" finished-at="2023-04-16T15:18:45Z" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sorting_Name_Z_A -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Sorting@21282ed8]" started-at="2023-04-16T15:18:45Z" name="AM" finished-at="2023-04-16T15:18:45Z" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="BM(java.lang.String, java.lang.String)[pri:0, instance:TestRunner.Sorting@21282ed8]" started-at="2023-04-16T15:18:45Z" name="BM" finished-at="2023-04-16T15:18:47Z" duration-ms="1790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="sorting_Price_High_Low()[pri:0, instance:TestRunner.Sorting@21282ed8]" started-at="2023-04-16T15:18:47Z" name="sorting_Price_High_Low" finished-at="2023-04-16T15:18:47Z" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sorting_Price_High_Low -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Sorting@21282ed8]" started-at="2023-04-16T15:18:47Z" name="AM" finished-at="2023-04-16T15:18:48Z" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="BM(java.lang.String, java.lang.String)[pri:0, instance:TestRunner.Sorting@21282ed8]" started-at="2023-04-16T15:18:48Z" name="BM" finished-at="2023-04-16T15:18:49Z" duration-ms="1716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="sorting_Price_Low_High()[pri:0, instance:TestRunner.Sorting@21282ed8]" started-at="2023-04-16T15:18:49Z" name="sorting_Price_Low_High" finished-at="2023-04-16T15:18:49Z" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sorting_Price_Low_High -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Sorting@21282ed8]" started-at="2023-04-16T15:18:49Z" name="AM" finished-at="2023-04-16T15:18:50Z" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:TestRunner.Sorting@21282ed8]" started-at="2023-04-16T15:18:50Z" name="closeBrowsers" finished-at="2023-04-16T15:18:50Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- TestRunner.Sorting -->
+      <class name="TestRunner.HomePageText">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestRunner.HomePageText@7bab3f1a]" started-at="2023-04-16T15:18:57Z" name="openBrowser" finished-at="2023-04-16T15:18:59Z" duration-ms="1392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="textInHome()[pri:0, instance:TestRunner.HomePageText@7bab3f1a]" started-at="2023-04-16T15:18:59Z" name="textInHome" finished-at="2023-04-16T15:18:59Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textInHome -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.HomePageText@7bab3f1a]" started-at="2023-04-16T15:18:59Z" name="BM" finished-at="2023-04-16T15:18:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.HomePageText@7bab3f1a]" started-at="2023-04-16T15:18:59Z" name="AM" finished-at="2023-04-16T15:18:59Z" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:TestRunner.HomePageText@7bab3f1a]" started-at="2023-04-16T15:18:59Z" name="closeBrowsers" finished-at="2023-04-16T15:18:59Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowsers -->

@@ -10,9 +10,14 @@ import org.testng.annotations.Test;
 
 import POJO.saucedemoPOJO;
 import TestBase.Base;
+import TestBase.RetryFailed;
 
 public class Login_Func extends Base {
 	public saucedemoPOJO saucedemo;
+	
+	//<class name="TestRunner.Login_Func"/>
+	//<class name="TestRunner.HomePageText"/>
+	//<class name="TestRunner.Inventory"/>
 	
 	@BeforeClass
 	public void openBrowser() {
@@ -39,7 +44,7 @@ public class Login_Func extends Base {
 	
 	@Test
 	public void login_Scenario_1() {
-		saucedemo= new saucedemoPOJO();
+		saucedemo=new saucedemoPOJO();
 		fill(saucedemo.getUserName(), "standard_user");
 		fill(saucedemo.getPassword(), "secret_sauce");
 		click(saucedemo.getLoginButton());
@@ -48,7 +53,7 @@ public class Login_Func extends Base {
 	}
 	@Test
 	public void login_Scenario_2() {
-		saucedemo= new saucedemoPOJO();
+		saucedemo=new saucedemoPOJO();
 		fill(saucedemo.getUserName(), "standard_user");
 		fill(saucedemo.getPassword(), "secret");
 		click(saucedemo.getLoginButton());
@@ -58,7 +63,7 @@ public class Login_Func extends Base {
 	}
 	@Test
 	public void login_Scenario_3() {
-		saucedemo= new saucedemoPOJO();
+		saucedemo=new saucedemoPOJO();
 		fill(saucedemo.getUserName(), "standard");
 		fill(saucedemo.getPassword(), "secret_sauce");
 		click(saucedemo.getLoginButton());
@@ -69,7 +74,7 @@ public class Login_Func extends Base {
 	
 	@Test
 	public void login_Scenario_4() {
-		saucedemo= new saucedemoPOJO();
+		saucedemo=new saucedemoPOJO();
 		fill(saucedemo.getUserName(), "standard");
 		fill(saucedemo.getPassword(), "secret");
 		click(saucedemo.getLoginButton());

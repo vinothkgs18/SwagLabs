@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="password" value="secret_sauce"/>
+  <parameter name="userName" value="standard_user"/>
+  <listeners>
+    <listener class-name="TestBase.IAnnot"/>
+  </listeners>
+  <test thread-count="2" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="TestRunner.Sorting">
+        <methods>
+          <include name="AM"/>
+          <include name="BM"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowsers"/>
+          <include name="sorting_Price_High_Low"/>
+        </methods>
+      </class> <!-- TestRunner.Sorting -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

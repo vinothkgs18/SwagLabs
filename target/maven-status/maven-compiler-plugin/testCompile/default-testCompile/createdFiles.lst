@@ -1,4 +1,6 @@
+TestBase\IAnnot.class
 TestRunner\HomePageText.class
-TestRunner\Login_Func.class
 POJO\saucedemoPOJO.class
+TestRunner\Login_Func.class
 TestBase\Base.class
+TestBase\RetryFailed.class

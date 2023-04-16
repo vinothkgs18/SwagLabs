@@ -1,5 +1,8 @@
 package TestRunner;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -15,14 +18,14 @@ public saucedemoPOJO saucedemo;
 	
 	@BeforeClass
 	public void openBrowser() {
-		
+		chromeAcces();
+		LaunchUrl("https://www.saucedemo.com/");
+		System.out.println("CUrrent Start TIme==");
 	}
 	
 	@BeforeMethod
 	public void BM() {
-		chromeAcces();
-		LaunchUrl("https://www.saucedemo.com/");
-		System.out.println("CUrrent Start TIme==");
+		
 	}
 	
 	@AfterMethod
@@ -38,6 +41,7 @@ public saucedemoPOJO saucedemo;
 	}
 	
 	@Test
+	(enabled = false)
 	public void logoText() {
 		saucedemo= new saucedemoPOJO();
 		Assert.assertEquals(saucedemo.getPageLogoText().getText(),"Swag Labs");
@@ -48,6 +52,8 @@ public saucedemoPOJO saucedemo;
 		saucedemo= new saucedemoPOJO();
 		Assert.assertEquals(saucedemo.getTextInHome().get(0).getText(),"Accepted usernames are:");
 		Assert.assertEquals(saucedemo.getTextInHome().get(1).getText(),"Password for all users:");
+		
+		
 	} 	
 	
 	

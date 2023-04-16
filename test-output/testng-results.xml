@@ -1,103 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-19T10:17:03Z" name="Suite" finished-at="2023-03-19T10:17:11Z" duration-ms="8501">
+  <suite started-at="2023-04-16T17:19:57 IST" name="Default suite" finished-at="2023-04-16T17:19:58 IST" duration-ms="64">
     <groups>
     </groups>
-    <test started-at="2023-03-19T10:17:03Z" name="Test" finished-at="2023-03-19T10:17:11Z" duration-ms="8501">
-      <class name="TestRunner.Login_Func">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:03Z" name="openBrowser" finished-at="2023-03-19T10:17:03Z" duration-ms="7" status="PASS">
+    <test started-at="2023-04-16T17:19:57 IST" name="Default test" finished-at="2023-04-16T17:19:58 IST" duration-ms="64">
+      <class name="TestRunner.Sorting">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestRunner.Sorting@7193666c]" started-at="2023-04-16T17:19:57 IST" name="openBrowser" finished-at="2023-04-16T17:19:57 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:03Z" name="BM" finished-at="2023-03-19T10:17:05Z" duration-ms="2320" status="PASS">
+        <test-method is-config="true" signature="BM(java.lang.String,java.lang.String)[pri:0, instance:TestRunner.Sorting@7193666c]" started-at="2023-04-16T17:19:57 IST" name="BM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681645797976" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'useerName' is required by BeforeMethod on method BM but has not been marked @Optional or defined
+in C:\Users\sasit\AppData\Local\Temp\testng-eclipse-736734778\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'useerName' is required by BeforeMethod on method BM but has not been marked @Optional or defined
+in C:\Users\sasit\AppData\Local\Temp\testng-eclipse-736734778\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BM -->
-        <test-method signature="login_Scenario_1()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:05Z" name="login_Scenario_1" finished-at="2023-03-19T10:17:05Z" duration-ms="207" status="PASS">
+        <test-method signature="sorting_Name_Z_A()[pri:0, instance:TestRunner.Sorting@7193666c]" started-at="2023-04-16T17:19:57 IST" name="sorting_Name_Z_A" finished-at="2023-04-16T17:19:57 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'useerName' is required by BeforeMethod on method BM but has not been marked @Optional or defined
+in C:\Users\sasit\AppData\Local\Temp\testng-eclipse-736734778\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'useerName' is required by BeforeMethod on method BM but has not been marked @Optional or defined
+in C:\Users\sasit\AppData\Local\Temp\testng-eclipse-736734778\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_Scenario_1 -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:05Z" name="AM" finished-at="2023-03-19T10:17:05Z" duration-ms="73" status="PASS">
+        </test-method> <!-- sorting_Name_Z_A -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Sorting@7193666c]" started-at="2023-04-16T17:19:58 IST" name="AM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681645798000" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AM -->
-        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:05Z" name="BM" finished-at="2023-03-19T10:17:06Z" duration-ms="1015" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BM -->
-        <test-method signature="login_Scenario_2()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:06Z" name="login_Scenario_2" finished-at="2023-03-19T10:17:07Z" duration-ms="164" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_Scenario_2 -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:07Z" name="AM" finished-at="2023-03-19T10:17:07Z" duration-ms="109" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AM -->
-        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:07Z" name="BM" finished-at="2023-03-19T10:17:08Z" duration-ms="951" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BM -->
-        <test-method signature="login_Scenario_3()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:08Z" name="login_Scenario_3" finished-at="2023-03-19T10:17:08Z" duration-ms="172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_Scenario_3 -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:08Z" name="AM" finished-at="2023-03-19T10:17:08Z" duration-ms="97" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AM -->
-        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:08Z" name="BM" finished-at="2023-03-19T10:17:09Z" duration-ms="982" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BM -->
-        <test-method signature="login_Scenario_4()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:09Z" name="login_Scenario_4" finished-at="2023-03-19T10:17:09Z" duration-ms="153" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_Scenario_4 -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:09Z" name="AM" finished-at="2023-03-19T10:17:09Z" duration-ms="80" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AM -->
-        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:TestRunner.Login_Func@4d1c005e]" started-at="2023-03-19T10:17:09Z" name="closeBrowsers" finished-at="2023-03-19T10:17:09Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:TestRunner.Sorting@7193666c]" started-at="2023-04-16T17:19:58 IST" name="closeBrowsers" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681645798003" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowsers -->
-      </class> <!-- TestRunner.Login_Func -->
-      <class name="TestRunner.HomePageText">
-        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.HomePageText@8462f31]" started-at="2023-03-19T10:17:09Z" name="BM" finished-at="2023-03-19T10:17:10Z" duration-ms="931" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BM -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestRunner.HomePageText@8462f31]" started-at="2023-03-19T10:17:09Z" name="openBrowser" finished-at="2023-03-19T10:17:09Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="logoText()[pri:0, instance:TestRunner.HomePageText@8462f31]" started-at="2023-03-19T10:17:10Z" name="logoText" finished-at="2023-03-19T10:17:10Z" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoText -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.HomePageText@8462f31]" started-at="2023-03-19T10:17:10Z" name="AM" finished-at="2023-03-19T10:17:10Z" duration-ms="77" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AM -->
-        <test-method is-config="true" signature="BM()[pri:0, instance:TestRunner.HomePageText@8462f31]" started-at="2023-03-19T10:17:10Z" name="BM" finished-at="2023-03-19T10:17:11Z" duration-ms="997" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BM -->
-        <test-method signature="textInHome()[pri:0, instance:TestRunner.HomePageText@8462f31]" started-at="2023-03-19T10:17:11Z" name="textInHome" finished-at="2023-03-19T10:17:11Z" duration-ms="40" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- textInHome -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:TestRunner.HomePageText@8462f31]" started-at="2023-03-19T10:17:11Z" name="AM" finished-at="2023-03-19T10:17:11Z" duration-ms="86" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AM -->
-        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:TestRunner.HomePageText@8462f31]" started-at="2023-03-19T10:17:11Z" name="closeBrowsers" finished-at="2023-03-19T10:17:11Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowsers -->
-      </class> <!-- TestRunner.HomePageText -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- TestRunner.Sorting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
